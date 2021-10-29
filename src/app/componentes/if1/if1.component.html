@@ -1,0 +1,41 @@
+<div class="container">
+
+  <br>
+  <br>
+
+  <h2>Recibe las mejores ofertas</h2> <br>
+  <p>Recibe las mejores ofertas solamente registrando tu correo y numero <br>
+      Nos aseguraremos de tenerte al tanto sobre todas las ofertas que tengamos.</p> <br>
+
+<div class="row">
+    <div class="col-xl-6 col-lg-6  col-md-6  col-sm-6 col-6  ">
+            <form id="miForm"  autocomplete="off">
+              
+              <label >Nombre</label> <br>
+              <input type="text" class="form-control" id="txtnombre" > <br>
+              <label >Apellido</label> <br>
+              <input type="text" class="form-control" id="txtapellido"> <br>
+              <label> Correo</label> <br>
+              <input type="text" class="form-control" id="txtcorreo"> <br>
+              <label >Numero</label> <br>
+              <input type="number" class="form-control" id="txtnumero"> <br>
+             
+               
+                <button type="button" id="btnagregar" class="btn btn-primary" onclick="procesar()" >Guardar</button>
+                <button type="button" id="btneditar" class="btn btn-warning" onclick="actualizarfila()" >Editar</button>
+            
+              </form>
+     </div>
+     <div class="col-xl-6 col-lg-6  col-md-6  col-sm-6 col-6  ">
+       
+     </div>
+ </div>
+ <br><br>
+ <div id="cuadro">
+
+    <table class="table table-hover table-dark" id="mitabla">
+         <tr><th>ID</th> <th>nombre</th> <th>apellido</th> <th>correo</th> <th>numero</th><th class="text-center">Opcion</th></tr>
+
+ </table>
+</div>
+</div>
